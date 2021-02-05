@@ -47,7 +47,7 @@ names(TidyData)<-gsub("gravity", "Gravity", names(TidyData))
 #creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 FinalData <- TidyData %>%
   group_by(subject, activity) %>%
-  summarise_all(funs(mean))
+  summarise_all(list(mean))
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
 #Check vairable names 
 str(FinalData)
