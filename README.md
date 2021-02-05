@@ -1,5 +1,5 @@
 # getting-and-cleaning-data-week-4-project
-##**Peer-graded Assignment: Getting and Cleaning Data Course Project**
+## **Peer-graded Assignment: Getting and Cleaning Data Course Project**
 
 This repository is a RR submission for Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset.
 
